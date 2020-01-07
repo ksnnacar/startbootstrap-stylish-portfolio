@@ -1,0 +1,18 @@
+// About
+.about {
+  padding: 15rem 0;
+  background: linear-gradient(-90deg, rgba(128,28,141,0.56) 0%, rgba(31,10,35,0.65) 43%, #35103D 100%), url('../img/bg-callout.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+    color:$gray-400 ;
+  }
+  p{
+    color:$gray-200;
+  }
+}

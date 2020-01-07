@@ -10,7 +10,7 @@ a {
 .btn-primary {
   background-color: $primary !important;
   border-color: $primary !important;
-  color: $white !important;
+  color: $yellow !important;
   &:hover,
   &:focus,
   &:active {
@@ -33,6 +33,9 @@ a {
 
 .btn-dark {
   color: $white !important;
+  background-color:  transparent;
+  border: 1px solid $yellow;
+  box-shadow: 0 12px 122px 12px #CD7FC5;
 }
 
 .btn {
