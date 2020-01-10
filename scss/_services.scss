@@ -8,3 +8,24 @@
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.unity-icon{
+  color: $white;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2.25rem;
+  text-shadow: $pw_dark;
+}
+.text-desc{
+  text-align: justify;
+
+  @media (min-width: 576px) {
+    margin-top:1rem;
+    margin-bottom:0rem;
+  }
+}
+.asset{
+  h4{
+    color:$white;
+  }
+}

@@ -232,6 +232,30 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+.unity-icon {
+  color: #fff;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2.25rem;
+  text-shadow: #432841;
+}
+
+.text-desc {
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  .text-desc {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+}
+
+.asset h4 {
+  color: #fff;
+}
+
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
@@ -313,6 +337,14 @@ h6 {
   }
 }
 
+.portfolio-item-stable {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -332,6 +364,10 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #550c4d;
   text-decoration: none;
+}
+
+.hello {
+  display: block;
 }
 
 a {
@@ -360,8 +396,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #550c4d !important;
+  border-color: #550c4d !important;
 }
 
 .btn-dark {
